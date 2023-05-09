@@ -1,5 +1,5 @@
 # SlidePuzzleGame
-This project is a sliding puzzle game implementation in Java using various design patterns. The goal of the game is to rearrange tiles on a board to form a specific pattern or arrangement. In this implementation, the player must rearrange a 3x3|4x4|5x5 grid of numbered tiles by sliding them into the empty space until they are in numerical order.
+This project is a sliding puzzle game implementation in Java (IntellJ as IDE) using various design patterns. The goal of the game is to rearrange tiles on a board to form a specific pattern or arrangement. In this implementation, the player must rearrange a 3x3|4x4|5x5 grid of numbered tiles by sliding them into the empty space until they are in numerical order.
 
 ## Design Patterns
 This project makes use of the following design patterns:
@@ -23,4 +23,4 @@ Here is a brief overview of the main classes in this project:
 To run the game, you will need Java installed on your machine. Simply clone the repository and run the SlidePuzzleGame class. The game should open in a new window and you can start playing by clicking on tiles to move them into the empty space.
 
 ## Credits
-This project was created by ABBAOUI Achraf as a School project. If you have any questions or comments, please reach out to me at achraf.abbaoui2001@gmail.com.
+This project was created by ABBAOUI Achraf as a School project. If you have any questions or comments, please reach out to me at achraf.abbaoui2001@gmail.com .
