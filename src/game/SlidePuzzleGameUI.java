@@ -82,7 +82,6 @@ public class SlidePuzzleGameUI extends JFrame implements IBoardObserver {
         backButton.setForeground(Color.WHITE);
         backButton.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
         backButton.addActionListener(e -> {
-            // TODO: Handle back button click
             Main.main(new String[]{});
             this.dispose();
         });

@@ -11,8 +11,8 @@ public class SlidePuzzleGame {
         IPuzzleBoardImplementation boardImpl = new NByNPuzzleBoard(boardSize);
         this.puzzleBoard = new PuzzleBoard(boardImpl);
         this.gameUI = new SlidePuzzleGameUI(puzzleBoard);
-        // this.shuffleStrategy = new SystematicShuffleStrategy(500); //Hard Real Mode of Playing
-        this.shuffleStrategy = new RandomShuffleStrategy(50); //Easy Testing Mode of Playing
+        this.shuffleStrategy = new SystematicShuffleStrategy(500); //Hard Real Mode of Playing
+        // this.shuffleStrategy = new RandomShuffleStrategy(50); //Easy Testing Mode of Playing
 
         // I can add filter mode for difficulty and quality scaling mode.
         /*
